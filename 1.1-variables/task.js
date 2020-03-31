@@ -6,18 +6,18 @@
  */
 
 function averageMark(a, g, p) {
-	let algebra = a;
-	let georaphy = g;
-	let physics = p;
-	let sum = a + g + p;
+    let algebra = a;
+    let georaphy = g;
+    let physics = p;
+    let sum = a + g + p;
     let result = sum / 3;
-	return result;
-  }
+    return result;
+ }
 
 function sayHello(userName) {
-	let myName = userName;
-	let message = (`Привет, мир! Меня зовут ${myName}`);
-	return message;
+    let myName = userName;
+    let message = (`Привет, мир! Меня зовут ${myName}`);
+    return message;
 }
 
 function calculateFormula() {
