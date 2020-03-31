@@ -7,13 +7,12 @@
 
 function averageMark(a, g, p) {
 	let algebra = a;
-    let georaphy = g;
-    let physics = p;
+	let georaphy = g;
+	let physics = p;
 	let sum = a + g + p;
-    result = sum / 3;
+    let result = sum / 3;
 	return result;
   }
-
 
 function sayHello(userName) {
 	let myName = userName;
@@ -22,11 +21,13 @@ function sayHello(userName) {
 }
 
 function calculateFormula() {
-    
-	let x = 2;
+    let x = 2;
     let y = 22;
     let z = 0;
     let result = x * y + 5 * z + x - 1 ;
-    
     return result;
 }
+
+
+
+
